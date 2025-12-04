@@ -1,4 +1,9 @@
+name = "cloudflare-messenger" # (или любое другое имя вашего проекта)
+main = "functions/api/messages.js" # (или путь к вашему основному файлу)
+compatibility_date = "2025-01-01" # (используйте текущую или будущую дату)
+
 [[d1_databases]]
-binding = "DB"
-database_name = "my-chat-db"
-database_id = "YOUR_DATABASE_ID"
+binding = "DB" # Используется в коде проекта как переменная 'env.DB'
+database_name = "Messenger_DB"
+database_id = "5de172a4-fe50-48ea-9788-8292e30de27d"
+
