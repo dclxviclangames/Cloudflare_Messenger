@@ -4,7 +4,7 @@ const authorInput = document.getElementById('author');
 const contentInput = document.getElementById('content');
 
 // URL вашего Cloudflare Worker
-const workerUrl = 'https://<ВАШ_SUBDOMAIN>.workers.dev/api/messages';
+const workerUrl = ' https://cloudflare-messenger.djml378z.workers.dev';
 
 async function fetchMessages() {
     try {
